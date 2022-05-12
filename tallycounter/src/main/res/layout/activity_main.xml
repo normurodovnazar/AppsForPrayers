@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/t"
+        android:text="0"
+        android:textSize="70sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/btn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/btn"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginBottom="100dp"
+        android:background="@drawable/bg_btn"
+        android:src="@drawable/ic_add"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:background="@drawable/item"
+        android:padding="5dp"
+        android:id="@+id/vibration"
+        android:src="@drawable/ic_vibration"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_margin="10dp"
+        android:layout_width="35dp"
+        android:layout_height="35dp"/>
+
+    <ImageView
+        android:clickable="true"
+        android:focusable="true"
+        android:background="@drawable/item"
+        android:padding="5dp"
+        android:id="@+id/reset"
+        android:src="@drawable/ic_refresh"
+        android:layout_margin="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="35dp"
+        android:layout_height="35dp"/>
+
+    <ImageView
+        android:id="@+id/day"
+        android:clickable="true"
+        android:focusable="true"
+        android:padding="5dp"
+        android:src="@drawable/ic_sun"
+        android:background="@drawable/item"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_margin="10dp"
+        android:layout_width="35dp"
+        android:layout_height="35dp"/>
+    <ImageView
+        android:id="@+id/night"
+        android:clickable="true"
+        android:focusable="true"
+        android:padding="5dp"
+        android:src="@drawable/ic_moon"
+        android:background="@drawable/item"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="10dp"
+        android:layout_width="35dp"
+        android:layout_height="35dp"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
