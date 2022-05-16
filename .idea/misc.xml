@@ -21,8 +21,22 @@
         <entry key="..\:/Nazar/MyAndroidProjects/AppsForPrayers/tallycounter/src/main/res/drawable/item_not_selected.xml" value="0.193" />
         <entry key="..\:/Nazar/MyAndroidProjects/AppsForPrayers/tallycounter/src/main/res/drawable/item_selected.xml" value="0.193" />
         <entry key="..\:/Nazar/MyAndroidProjects/AppsForPrayers/tallycounter/src/main/res/layout/activity_main.xml" value="0.26875" />
+        <entry key="..\:/Nazar/MyAndroidProjects/AppsForPrayers/webviewapp/src/main/res/drawable/b_not_pressed.xml" value="0.2115" />
+        <entry key="..\:/Nazar/MyAndroidProjects/AppsForPrayers/webviewapp/src/main/res/drawable/b_pressed.xml" value="0.2115" />
+        <entry key="..\:/Nazar/MyAndroidProjects/AppsForPrayers/webviewapp/src/main/res/drawable/button_background.xml" value="0.2115" />
+        <entry key="..\:/Nazar/MyAndroidProjects/AppsForPrayers/webviewapp/src/main/res/drawable/ic_baseline_settings_24.xml" value="0.2045" />
+        <entry key="..\:/Nazar/MyAndroidProjects/AppsForPrayers/webviewapp/src/main/res/drawable/ic_refresh.xml" value="0.222" />
+        <entry key="..\:/Nazar/MyAndroidProjects/AppsForPrayers/webviewapp/src/main/res/drawable/ic_web_off.xml" value="0.2115" />
+        <entry key="..\:/Nazar/MyAndroidProjects/AppsForPrayers/webviewapp/src/main/res/layout/activity_main.xml" value="0.12" />
+        <entry key="..\:/Nazar/MyAndroidProjects/AppsForPrayers/webviewapp/src/main/res/layout/activity_settings.xml" value="0.26875" />
       </map>
     </option>
+  </component>
+  <component name="EntryPointsManager">
+    <entry_points version="2.0">
+      <entry_point TYPE="field" FQNAME="com.normurodov_nazar.namoz_vaqtlari.MainActivity b" />
+    </entry_points>
+    <pattern value="com.normurodov_nazar.namoz_vaqtlari.Hey" method="combination" />
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Namoz vaqtlari</string>
+    <string name="reload">Qayta yuklash</string>
+    <string name="error_connection">Internet bilan aloqani tekshirib qayta urinib kor\'ring</string>
+    <string name="select_region">Viloyatni tanlash</string>
+    <string name="select_city">Shaharni tanlash</string>
+    <string name="apply">O\'zgarishlarni qo\'llamoq</string>
+    <string name="selected_region">Tanlangan viloyat:</string>
+    <string name="selected_city">Tanlangan shahar:</string>
+    <string name="region_first">Avval viloyatni tanlang</string>
+    <string name="region_and_city">Viloyat va shahrni tanlang</string>
+    <string name="save_changes">O\'zgartirishlarni saqlashni xohlayszimi?</string>
+    <string name="yes">Ha</string>
+    <string name="no">Yo\'q</string>
+    <string name="site_info">Bu ilova https://namozvaqti.uz/ saytining mobil ko\'rinishi</string>
+</resources>

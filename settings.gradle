@@ -15,3 +15,4 @@ dependencyResolutionManagement {
 rootProject.name = "AppsForPrayers"
 include ':app'
 include ':tallycounter'
+include ':webviewapp'
