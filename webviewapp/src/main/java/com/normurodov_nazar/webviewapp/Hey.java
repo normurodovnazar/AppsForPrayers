@@ -67,6 +67,6 @@ public class Hey {
 
     public static void showYesNoDialog(Activity activity, PageListener pageListener){
         AlertDialog.Builder builder = new AlertDialog.Builder(activity);
-        builder.setMessage(R.string.save_changes).setPositiveButton(R.string.yes, (dialogInterface, i) -> pageListener.pageFinishedSuccess()).setNegativeButton(R.string.no, (dialogInterface, i) -> pageListener.pageFinishedFailure()).show();
+        builder.setMessage(R.string.save_changes).setPositiveButton(R.string.yes, (dialogInterface, i) -> pageListener.pageFinishedSuccess(null)).setNegativeButton(R.string.no, (dialogInterface, i) -> pageListener.pageFinishedFailure()).show();
     }
 }

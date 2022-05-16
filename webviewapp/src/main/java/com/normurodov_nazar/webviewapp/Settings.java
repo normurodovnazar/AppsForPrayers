@@ -124,7 +124,7 @@ public class Settings extends AppCompatActivity {
 
                 }
                 @Override
-                public void pageFinishedSuccess() {
+                public void pageFinishedSuccess(String u) {
                     applyData();
                 }
                 });  else Toast.makeText(getApplicationContext(), R.string.region_and_city, Toast.LENGTH_SHORT).show();

@@ -23,11 +23,14 @@ import java.io.File;
 
 public class MainActivity extends AppCompatActivity {
 
+
     ActivityMainBinding b;
+
     ActivityResultLauncher<Intent> launcher;
     SharedPreferences preferences;
     String path;
-    boolean firstOpen = true,;
+    File file;
+    boolean firstOpen = true;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,6 +42,7 @@ public class MainActivity extends AppCompatActivity {
         b.web.getSettings().setAllowFileAccessFromFileURLs(true);
         preferences = Hey.getSharedPreferences(this);
         path = getDir("d",MODE_PRIVATE)+"/"+"vaqti.mht";
+        file = new File(path);
         MClient client = new MClient( (message, code) -> {
             if (code == -2) b.errorText.setText(R.string.error_connection);
             else b.errorText.setText(message);
@@ -50,10 +54,12 @@ public class MainActivity extends AppCompatActivity {
             }
 
             @Override
-            public void pageFinishedSuccess() {
+            public void pageFinishedSuccess(String url) {
+                if (!url.equals(path) && url.contains(Key.url)){
+                    b.web.saveWebArchive(path);
+                    Log.e("saved",path);
+                }
                 showWebPage();
-                b.web.saveWebArchive(path);
-                Log.e("saved",path);
             }
 
             @Override
@@ -66,25 +72,24 @@ public class MainActivity extends AppCompatActivity {
             showLoadingPage();
         });
         b.reloadIc.setOnClickListener(c->{
-            if (b.web.getTitle().equals("a")){
-
-            }else {
-
+            if (b.web.getUrl().contains(path)){
+                if (file.delete()) recreate();
             }
-
             b.web.reload();
             showLoadingPage();
         });
         b.web.setWebViewClient(client);
         launcher = registerForActivityResult(new ActivityResultContracts.StartActivityForResult(), result -> {
             if (result.getResultCode()==RESULT_OK){
+
+                file.delete();
                 recreate();
             }
         });
         String city = preferences.getString(district,null);
         if (city==null) launchSettings(); else {
             urlCity = url + city;
-            File file = new File(path);
+
             if (file.exists()){
                 b.web.loadUrl("file://"+path);
             }else {

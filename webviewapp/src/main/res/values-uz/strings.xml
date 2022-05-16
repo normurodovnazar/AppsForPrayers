@@ -13,5 +13,5 @@
     <string name="save_changes">O\'zgartirishlarni saqlashni xohlayszimi?</string>
     <string name="yes">Ha</string>
     <string name="no">Yo\'q</string>
-    <string name="site_info">Bu ilova https://namozvaqti.uz/ saytining mobil ko\'rinishi</string>
+    <string name="site_info">Bu ilova https://namozvaqti.uz/ saytining mobil ko\'rinishi. Ilovani internetga ulangan holda bir marta oching,sahifa yuklanishini kuting va ilova sahifani offlayn ko\'rish uchun o\'zi yuklab oladi.Endi shu kun uchun siz ilovaga internetni yoqib kirishingiz shart emas. Agar avvalgi kungi vaqtlar ko\'rsatilinayotgan bo\'lsa pastgi chap burchakdagi qayta yuklash tugmasini bosing va ilova bugungi namoz vaqtlarini yuklab oladi</string>
 </resources>

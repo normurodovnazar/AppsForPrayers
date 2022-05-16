@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.normurodov_nazar.webviewapp.Settings">
+    android:background="@color/white"
+    tools:context=".Settings">
     <TextView
         android:gravity="center"
         android:textSize="15sp"

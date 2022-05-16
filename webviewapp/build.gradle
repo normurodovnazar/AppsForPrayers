@@ -6,7 +6,7 @@ android {
     compileSdk 31
 
     defaultConfig {
-        applicationId "com.normurodov_nazar.webviewapp"
+        applicationId "com.normurodov_nazar.prayer_time"
         minSdk 23
         targetSdk 31
         versionCode 1

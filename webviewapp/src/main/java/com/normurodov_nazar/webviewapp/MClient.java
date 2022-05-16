@@ -47,6 +47,7 @@ public class MClient extends WebViewClient {
     public void onPageFinished(WebView view, String url) {
         super.onPageFinished(view, url);
         Log.e("onPageFinished",view.getTitle());
-        if (view.getTitle().contains("vaqti")) pageListener.pageFinishedSuccess(); else pageListener.pageFinishedFailure();
+        Log.e("onPageFinishedUrl",url);
+        if (view.getTitle().contains("vaqti")) pageListener.pageFinishedSuccess(url); else pageListener.pageFinishedFailure();
     }
 }
