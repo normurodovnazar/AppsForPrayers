@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_item_divider"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:id="@+id/lin"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/ayahNumber"
+            android:textSize="25sp"
+            android:textColor="@color/black"
+            android:textStyle="italic"
+            android:text="145"
+            android:layout_marginHorizontal="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <ImageButton
+            android:id="@+id/infoBtn"
+            android:src="@drawable/ic_info"
+            android:background="@drawable/bg_btn"
+            android:layout_width="30dp"
+            android:layout_height="30dp"/>
+        <ImageButton
+            android:id="@+id/save"
+            android:layout_marginVertical="5dp"
+            android:src="@drawable/ic_save"
+            android:background="@drawable/bg_btn"
+            android:layout_width="30dp"
+            android:layout_height="30dp"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginVertical="5dp"
+        android:text="بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ قُلْ أَعُوذُ بِرَبِّ النَّاسِ"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="35sp"
+        android:id="@+id/arabicText"
+        android:layout_marginHorizontal="5dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/lin"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

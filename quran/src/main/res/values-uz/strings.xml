@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Quron</string>
+    <string name="info">Oyatlar soni: %1s, nozil bo\'lishi: %2s</string>
+    <string name="retry">Qayta urinish</string>
+    <string name="unknown">Noma\'lum</string>
+    <string name="surahInfo" translatable="false">Sura raqami: %1s \nNomi: %2s \nInlizcha o\'qilishi: %3s \nInglizcha ma\'nosi: %4s \nOyatlari soni: %5s  \nNozil bo\'lishi: %6s</string>
+    <string name="surahList">Suralar</string>
+    <string name="readingList">O\'qilayotganlar ro\'yxati</string>
+    <string name="deleted">Ilovani keyingi ochishingizda ko\'rinmaydi</string>
+    <string name="saved">O\'qilayotganlar ro\'yxatiga qo\'shildi</string>
+</resources>

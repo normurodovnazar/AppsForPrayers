@@ -11,11 +11,13 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/app/ordinarydifferentialequations" />
+            <option value="$PROJECT_DIR$/noteprayer" />
+            <option value="$PROJECT_DIR$/quran" />
             <option value="$PROJECT_DIR$/tallycounter" />
             <option value="$PROJECT_DIR$/webviewapp" />
           </set>
         </option>
-        <option name="resolveModulePerSourceSet" value="false" />
       </GradleProjectSettings>
     </option>
   </component>

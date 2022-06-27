@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Quran</string>
+    <string name="info">Number of ayahs: %1s,revelation type: %2s</string>
+    <string name="retry">Retry</string>
+    <string name="unknown">Unknown</string>
+    <string name="surahInfo">Surah number: %1s \nName: %2s \nEnglish name: %3s \nEnglish name translation: %4s \nNumber of ayahs: %5s  \nRevelation type: %6s</string>
+    <string name="ayahInfo" translatable="false">Ayah number: %1s \nNumber in surah: %2s\nJuz: %3s\nManzil: %4s\nPage: %5s\nRuku: %6s\nHizb quarter: %7s\nSajda: %8s</string>
+    <string name="surahList">Surahs</string>
+    <string name="readingList">Reading list</string>
+    <string name="deleted">Will not be appear on next opening app</string>
+    <string name="saved">Saved to reading list</string>
+</resources>
